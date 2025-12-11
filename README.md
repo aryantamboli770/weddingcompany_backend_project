@@ -295,8 +295,4 @@ curl -X POST "http://localhost:8000/admin/login" \
 
 ---
 
-If you want, I can also:
 
-* generate a ready-to-paste `architecture.md` with PlantUML code,
-* create a short `CONTRIBUTING.md`, or
-* produce example Postman collection JSON for these APIs.
