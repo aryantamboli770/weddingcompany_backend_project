@@ -1,18 +1,31 @@
-# Create .gitignore file
-echo "venv/
+﻿# Virtual env
+venv/
+.env
+
+# Example env file - (you asked to ignore it)
+.env.example
+
+# Python bytecode / caches
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 .Python
-*.so
-*.egg
-*.egg-info/
-dist/
+
+# Distribution / Packaging
 build/
-.env
-.DS_Store
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# IDEs / editors
 .vscode/
 .idea/
+
+# OS / misc
+.DS_Store
 *.log
-get-pip.py" > .gitignore
+
+# Installer script or bootstrap
+get-pip.py
