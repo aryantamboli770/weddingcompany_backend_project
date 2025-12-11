@@ -1,0 +1,12 @@
+# app/services/__init__.py
+"""
+Business logic services
+"""
+
+from app.services.organization_service import OrganizationService
+from app.services.auth_service import AuthService
+
+__all__ = [
+    "OrganizationService",
+    "AuthService"
+]
